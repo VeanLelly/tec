@@ -1,0 +1,143 @@
+body {
+    /* background-color: rgb(4, 110, 36); */
+    /* background-image: linear-gradient(87deg, rgb(4, 1, 206), rgb(66, 1, 75), rgb(247, 14, 14)); */
+    animation: bgcolor infinite 10s;
+    position: block;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    
+    
+   
+    /* left:40%; */
+    /* position: absolute; */
+ 
+ }
+ 
+ .img {
+    cursor: all-scroll;
+ }
+ 
+ #result {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 29px;
+    margin: 10 auto;
+    background-color: white;
+    min-height: 20px;
+    overflow: hidden;
+ }
+ 
+ h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    display: flex;
+ }
+ 
+ div {
+ 
+    text-align: center;
+    padding-top: 10px;
+    /* position: fixed; */
+    top: 20px;
+    left: 20px;
+ }
+ 
+ .container {
+ 
+    padding: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 100px auto;
+    border-radius: 17px;
+    border-color: rgba(0, 0, 0, 0.993);
+    border-width: 5px;
+    border-style: solid;
+ }
+ 
+ .button {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    padding: 20px auto;
+    margin-bottom: 4px;
+    font-size: larger;
+ 
+ }
+ 
+ .button:hover {
+    background-color: yellowgreen;
+    /* background-color: rgb(1, 83, 12); */
+ 
+ }
+ 
+ .operation {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: rgb(255, 255, 255);
+ }
+ 
+ #result {
+    padding-top: 10px;
+ 
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border-radius: 10px;
+ }
+ 
+ #limpar {
+    color: white;
+    background-color: rgb(47, 189, 255, 0.507);
+    /* padding-bottompx; */
+    margin-right: 147px;
+    font-size: larger;
+ }
+ 
+ #limpar:hover {
+    background-color: rgb(43, 159, 213);
+ }
+ 
+ .icon {
+    color: #fff;
+    font-size: 24px;
+    top: 0;
+    left: 0;
+    width: 100px;
+    text-align: end;
+    height: 100%;
+ }
+ 
+ @keyframes bgcolor {
+    0% {
+       /* background-image: linear-gradient(87deg, rgb(156, 18, 18), rgb(66, 1, 75), rgb(247, 14, 14)); */
+       background: rgba(2, 2, 245, 0.829);
+    }
+ 
+    20% {
+       /* background-image: linear-gradient(87deg, rgb(4, 1, 206), rgb(11, 137, 175), rgb(7, 7, 7)); */
+       background: rgba(241, 33, 33, 0.863);
+    }
+ 
+    40% {
+       /* background-image: linear-gradient(87deg, rgb(187, 75, 0), rgb(77, 44, 82), rgb(210, 233, 5)); */
+    
+       background: rgba(9, 150, 9, 0.863);
+    }
+ 
+    60% {
+       /* background-image: linear-gradient(87deg, rgb(18, 156, 18), rgb(1, 36, 75), rgb(247, 14, 14)); */
+ 
+       background: rgba(236, 236, 59, 0.87);
+    }
+ 
+    80% {
+       /* background-image: linear-gradient(87deg, rgb(206, 43, 170), rgb(66, 1, 75), rgb(14, 162, 247)); */
+ 
+       background: rgba(167, 5, 153, 0.897);
+    }
+ }

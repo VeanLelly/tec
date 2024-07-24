@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // try {
+        //     // Código que pode gerar erro
+        //     let resultado = variavelNaoDefinida + 10;
+        //     console.log(resultado);
+        // } catch (erro) {
+        //     // Captura o erro e o trata
+        //     console.error(`Seu código se tornou o novo atacante do VASCO, DIGITE F:`, erro);
+        // } finally {
+        //     // Permite que o código seja executado independente do erro
+        //     console.log(`Execução finalizada.`);
+        // }
+
+        function dividir(a, b) {
+            if (b === 0) {
+                throw new Error(`Divisão por zero não é permitida`);
+            }
+            return a / b;
+        }
+
+        // Exemplo de uso da função dividir 
+        try {
+            let resultado = dividir(10, 0)
+            console.log(`Resultado`, resultado);
+        } catch (erro) {
+            console.error(`Erro:`, erro.message);
+        }
+
+    </script>
+</body>
+
+</html>

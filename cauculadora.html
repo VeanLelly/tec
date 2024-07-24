@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/62e43a72a9.js"></script>
+    <title>CALCULADORA SIMPLES</title>
+
+
+
+
+
+
+    <!-- "C:\Users\PC10\Downloads\OneDrive_3_22-07-2024\481fb5cefff50a286269ff38a9ae2e7e.jpg" -->
+
+</head>
+
+<body>
+
+    <!-- <h1>CALCULADORA 2.0</h1> -->
+    <div>
+        <img src="9c30e0f0f6c4402c33946494802888ce-removebg-preview.png" alt="" width="200px">
+    </div>
+
+    <div class="container">
+
+        <br>
+        <div id="keyboardNumber">
+            <!-- <img src="thumbnail.png" alt="" width="120px"> -->
+
+
+
+
+            <p id="result"></p>
+            <button class="button" id="limpar" onclick="clean(`C`)">C</button>
+            <button class="button" onclick="saveNumber()">M+</button>
+            <button class="button" onclick="subtractNumber()">M-</button>
+            <button class="button" onclick="viewSavedNumber()">MR</button>
+            <button class="button" onclick="offSavedNumber()">MC</button>
+
+
+
+            <button class="button" onclick="insert(`1`)">1</button>
+            <button class="button" onclick="insert(`2`)">2</button>
+            <button class="button" onclick="insert(`3`)">3</button>
+            <button class="operation button" onclick="insert(`+`)">+</button>
+
+            <br>
+
+            <button class="button" onclick="insert(`4`)">4</button>
+            <button class="button" onclick="insert(`5`)">5</button>
+            <button class="button" onclick="insert(`6`)">6</button>
+            <button class="operation button" onclick="insert(`-`)">-</button>
+
+            <br>
+
+            <button class="button" onclick="insert(`7`)">7</button>
+            <button class="button" onclick="insert(`8`)">8</button>
+            <button class="button" onclick="insert(`9`)">9</button>
+            <button class="operation button" onclick="insert(`*`)">*</button>
+
+            <br>
+
+            <button class="button" onclick="insert(`0`)">0</button>
+            <button class="button" onclick="insert(`.`)">.</button>
+            <button class="button" id="calculate" onclick="calculate()">=</button>
+            <button class="operation button" onclick="insert(`/`)">/</button>
+            <br>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    <!-- <div class="box perfumes"> -->
+    <!-- PERFUMES
+    </div>
+    <div class="box eletronicos">
+        ELETRÔNICOS
+    </div>
+    <div class="box moveis">
+        MÓVEIS
+    </div> -->
+
+    <!-- CSS -->
+    <!-- div.box { 
+        float:left;
+        text-align: center;
+        margin-right:15px;
+        width: 200px;
+        height: 300px;
+        border: 4px solid white;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent); 
+        }
+        div.box.perfumes { 
+          background-color: red;
+          }
+        div.box.eletronicos { 
+          background-color: green;
+          }
+        div.box.moveis { 
+          background-color: blue;
+          }
+     -->
+</body>
+
+</html>
